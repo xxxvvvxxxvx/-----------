@@ -15,5 +15,3 @@ def kont_atrasana():
   numurs= gramatina.atrod_kontaktu(vards)
   if numurs:
     print(f"{vards} numurs ir {numurs}")
-  else:
-    print(f'izkatas, ka {vards} nav saraksta')
