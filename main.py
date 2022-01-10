@@ -1,0 +1,11 @@
+import d_gramatinnna
+
+from replit import db
+
+def piev_kontaktu(vards, tel_nr):
+  if vards in db:
+    print('Kontakts ji pievienots')
+  else:
+    db[vards]=tel_nr
+    print(f'Pievienots:{vards}:{tel_nr}')
+    
