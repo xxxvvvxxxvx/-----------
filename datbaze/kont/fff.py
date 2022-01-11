@@ -10,5 +10,5 @@ def piev_kontaktu(vards, tel_nr):
 
 
 def atrod_kontaktu(vards):
-    numurs = db, get(vards)
+    numurs = db.get(vards)
     return numurs
