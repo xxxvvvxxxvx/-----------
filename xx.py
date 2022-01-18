@@ -18,6 +18,7 @@ def kont_meklesana(simbols):
 
 def mainit_numuru (iepr_v, jaunais_n):
   db[iepr_v]=jaunais_n
+  
 
 
 
@@ -26,4 +27,8 @@ def mainit_kontaktu(iepr_v, jaunais_v, jaunais_n):
 
   del db[iepr_v]
 
-  
+
+
+def dzest_kont(vards):
+ del db["vards"]
+ print(f"Konts ir izdests.") 
